@@ -1,0 +1,15 @@
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+joblib
+streamlit
+uvicorn
+fastapi
+httpx
+python-dotenv
+scikit-learn
+nltk
+

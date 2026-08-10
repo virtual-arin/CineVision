@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Perforated dashed strip decoration between poster and card info */
+.mc-perf {
+  height: 0;
+  border-top: 2px dashed theme("colors.line");
+  margin: 0 10px;
+}
+
+/* Two-line clamped card title */
+.mc-title-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Marquee gold "bulb strip" pattern, ported from .filmstrip */
+.filmstrip {
+  height: 18px;
+  width: 100%;
+  background-color: #0b0805;
+  background-image: repeating-radial-gradient(
+    circle at 16px 9px,
+    #e0c15c 0,
+    #c9a227 2.5px,
+    rgba(201, 162, 39, 0.35) 4px,
+    transparent 6.5px,
+    transparent 32px
+  );
+  background-size: 32px 18px;
+  box-shadow:
+    inset 0 1px 0 rgba(224, 193, 92, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
