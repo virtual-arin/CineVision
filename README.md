@@ -1,5 +1,7 @@
 # 🎬 CineVision 
 
+-----
+
 ## 🎞️ Business Domain 
 
 **Entertainment • OTT Platforms • Streaming Services**
