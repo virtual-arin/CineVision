@@ -1,26 +1,32 @@
 # 🎬 CineVision 
 
-## 🏢 Business Domain
+## 🎞️ Business Domain 
 
-**Entertainment • OTT Platforms • Streaming Services • Content Discovery**
+**Entertainment • OTT Platforms • Streaming Services**
 
----
+-----
 
-## 🌍 Business Problem
+## 🏢 About the Company
 
-Streaming platforms offer **thousands of movies and shows**, making it difficult for users to quickly discover content that matches their interests.
+CineVision is an OTT and entertainment technology platform focused on helping users discover movies and shows that match their interests. The platform uses data and Natural Language Processing (NLP) to understand movie descriptions, genres, and other metadata, making content discovery faster, easier, and more relevant for users.
 
-For example, a user who enjoyed **Avengers** may want movies with similar themes, genres, and storytelling style. Manually browsing a large catalog increases search time and often results in poor content discovery.
+-----
 
-Traditional keyword search is limited because users usually want **movies that feel similar**, not just movies that contain the same words.
+## 🥺 Problem Statement
 
----
+CineVision has a large catalog of movies and shows, making it difficult for users to quickly find content similar to what they already enjoy. Traditional keyword-based search may not understand that users are looking for movies with similar themes, genres, storylines, or descriptions.
 
-## 🎯 Business Objective
+The company wants to build a recommendation system that can analyze movie information and identify movies that are similar to a user's selected movie.
 
-The Objective of the project is to build a **NLP-powered content recommendation system** that helps users discover relevant movies by analyzing movie descriptions and metadata. The system uses **TF-IDF vectorization** and **Cosine Similarity** to identify semantically similar movies and return the most relevant recommendations.
+-----
 
----
+## 🎯 Objective
+
+Build an NLP-based content recommendation system that recommends movies similar to a movie selected by the user. The system uses TF-IDF vectorization and Cosine Similarity to analyze movie descriptions and metadata and identify the most relevant content.
+
+The goal is to improve content discovery, reduce the time users spend searching for movies, increase user engagement, and provide a foundation for a scalable recommendation system.
+
+-----
 
 ## 📊 Dataset Overview
 
