@@ -2,7 +2,7 @@
 
 -----
 
-## 🎞️ Business Domain 
+## 🎞️ Industry Domain 
 
 **Entertainment • OTT Platforms • Streaming Services**
 
